@@ -1,0 +1,104 @@
+*{
+    flex: auto;
+    align-content: center;
+
+}
+body {
+	text-align: center;
+	background-color: #a06060;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+h1{
+	font-size: 5rem;
+	color: #DBEDF3;
+	font-family: cursive;
+	text-shadow: 3px 0 #DA0463;
+   
+}
+
+.w {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQah1OpR5dQ8SmdOTIO3GTYhM7PFG9MVGukxHPI1w4Q&s");
+}
+
+.a {
+	background-image: url("https://media.gettyimages.com/id/502191931/photo/beats-waiting-to-happen.jpg?s=612x612&w=gi&k=20&c=3LiNDYSQ3KDcrqdmXNVVSDdaZ2TU6YKY2ZPCFm72YEg=");
+}
+
+.s {
+	background-image: url("https://www.shutterstock.com/image-photo/man-plays-musical-percussion-instrument-260nw-613520144.jpg");
+}
+
+.d {
+	background-image: url("https://plus.unsplash.com/premium_photo-1671516771888-0276e83e74a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHJ1bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+}
+
+.j {
+	background-image: url("https://images.unsplash.com/photo-1524230659092-07f99a75c013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ1bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+}
+
+.k {
+	background-image: url("https://images.unsplash.com/photo-1588032786045-59cefda005c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZHJ1bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+}
+
+.l {
+	background-image: url("https://images.unsplash.com/photo-1570668088356-520deb6dc993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRydW18ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+}
+.m {
+	background-image: url("https://th.bing.com/th/id/OIP.5qppFzt1kNxMzQSqlfOCmQHaG5?pid=ImgDet&rs=1");
+}
+
+.all {
+	margin: 10% auto;
+}
+
+.animation {
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+    animation-duration: 3s;
+}
+
+.button {
+	outline: none;
+	border: 10px solid #404B69;
+	font-size: 5rem;
+	font-family: 'Arvo', cursive;
+	line-height: 2;
+	font-weight: 900;
+	color: #DA0463;
+	text-shadow: 3px 0 #DBEDF3;
+	border-radius: 15px;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 10px;
+	background-color: white;
+    
+    
+}
+.button:hover{
+    opacity: 80%;
+
+}
+footer{
+	width: 200px;
+	height: 30px;
+	background-color: #fff;
+}
+.foot{
+	font: 1em sans-serif;
+	font-size: large;
+}
+.quote{
+	font-size: xx-large;
+	color: #fff;
+}
+@keyframes button { 
+    0% { opacity: 0; transform: scale(.3); }
+     50% { opacity: 1; transform: scale(1.05);
+     }
+      70% { transform: scale(.9);
+     } 100% 
+     { transform: scale(1); } }
